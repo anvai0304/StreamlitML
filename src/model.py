@@ -21,13 +21,13 @@ def train_model(X, y):
     
     return best_model
 
-def save_model(model, filename='titanic_model.joblib'):
-    joblib.dump(model, filename)
+def save_model(best_model, filename='titanic_model.joblib'):
+    joblib.dump(best_model, filename)
 
 def load_model(filename='titanic_model.joblib'):
     return joblib.load(filename)
 
-def predict_survival(model, features):
-    prediction = model.predict(features)
-    probability = model.predict_proba(features)
+def predict_survival(best_model, features):
+    prediction = best_model.predict(features)
+    probability = best_model.predict_proba(features)
     return prediction[0], probability[0][1]

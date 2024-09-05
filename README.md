@@ -23,8 +23,8 @@ This will start the app and open it in your default web browser.
 
 ## Project Structure
 
-- `data/`: Contains the Titanic dataset.
-- `notebooks/`: Contains the Jupyter notebook with the original model development.
+- `model/`: Contains the Titanic dataset.
+- `model/`: Contains the Jupyter notebook with the original model development.
 - `src/`: Contains the source code for data preprocessing and model training.
 - `app.py`: The main Streamlit application.
 

@@ -9,7 +9,7 @@ This project uses machine learning to predict the survival of Titanic passengers
    ```
    pip install -r requirements.txt
    ```
-3. Place your Titanic dataset (CSV file) in the `data/` directory.
+3. Place your Titanic dataset (CSV file) in the `model/` directory.
 
 ## Running the Application
 
